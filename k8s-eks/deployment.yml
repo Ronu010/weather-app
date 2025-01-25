@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: nginx-deployment
-  namespace: nginx
+  name: weather-app-deployment
+  namespace: weather-app
   labels:
-    app: nginx
+    app: weather-app
 
 spec:
-  replicas: 3
+  replicas: 4
   selector: 
     matchLabels:
-      app: nginx
+      app: weather-app
   template:
     metadata:
-      name: nginx-pod
-      namespace: nginx
+      name: weather-app-pod
+      namespace: weather-app
       labels:
-        app: nginx
+        app: weather-app
         
     spec:
       containers:
-      - name: nginx
+      - name: weather-app
         image: anirbanb13/devops-projects-images:latest
         ports: 
         - containerPort: 5000
