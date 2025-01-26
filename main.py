@@ -119,7 +119,6 @@ def error():
     return render_template("error.html")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__
     # Run the app on all interfaces
     app.run(debug=True, host="0.0.0.0")
-
