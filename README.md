@@ -43,3 +43,8 @@ If I were to do this project again, there are a few changes I would make. I woul
 - <a target="_blank" href="https://icons8.com/icon/39789/chevron-left">Chevron Left</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 - <a target="_blank" href="https://icons8.com/icon/99362/summer">Summer</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 - <a target="_blank" href="https://icons8.com/icon/akbaie9da2Be/tornado">Tornado</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+----Clone the Repository: The project code is version-controlled in GitHub. It can be cloned and set up locally.
+Build the Docker Image: Use docker build -t python-weather-app:latest . to create a Docker image for the app.
+Run the Container: Deploy the app using docker run -d -p 5000:5000 python-weather-app. The app will be accessible on http://localhost:5000.
+Test the Application: Open the app in a browser, enter a city name, and verify that the correct weather information is displayed.
